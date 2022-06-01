@@ -5,6 +5,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/* Header */
 .header {
   width: 500px;
   margin: 0 auto;
@@ -20,12 +21,25 @@ body {
   font-family: fantasy, cursive;
 }
 
+/* Main */
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
 
+/* Heading */
+h3 {
+  color: #333;
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid #333;
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+/* Tasks */
 .task {
   width: 56%;
   display: inline-block;
@@ -46,9 +60,12 @@ li {
   list-style: none;
 }
 
-input,button{
+input,
+button{
   outline: none;
 }
+
+/* BTN */
 
 button {
   background: none;
@@ -64,17 +81,7 @@ button:hover {
   color: #3a3A3a;
 }
 
-/* Heading */
-h3 {
-  color: #333;
-  font-weight: 700;
-  font-size: 15px;
-  border-bottom: 2px solid #333;
-  padding: 30px 0 10px;
-  margin: 0;
-  text-transform: uppercase;
-}
-
+/* Inputs */
 input[type="text"] {
   margin: 0;
   font-size: 18px;
