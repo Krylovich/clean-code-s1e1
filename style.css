@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 .header {
@@ -29,7 +29,7 @@ body {
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -41,7 +41,7 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li {
   list-style: none;
 }
 
@@ -55,7 +55,7 @@ button {
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   cursor: pointer;
 }
 
@@ -84,7 +84,7 @@ input[type="text"] {
   border: 1px solid #dDd;
   background: #FFF;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #888;
 }
 
@@ -129,7 +129,7 @@ li > label {
 }
 
 li > input[type="text"] {
-  width: 226px
+  width: 226px;
 }
 
 .del-img {
@@ -143,8 +143,8 @@ li > input[type="text"] {
 }
 
 /* Completed */
-.compl-task {
-  text-decoration: line-through
+#completed-tasks li label {
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -155,7 +155,7 @@ li input[type=text] {
 
 .edit-mode input[type=text] {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode label {
